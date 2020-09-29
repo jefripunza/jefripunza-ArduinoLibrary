@@ -66,14 +66,15 @@ char *text = string2char(awal);
 #### 2. Char to Int
 dapat mengkonversi dari nilai Char ke nilai Integer.
 ```java
-char *text = '24.5'
+char *text = "24.5";
 int nilai = char2int(text);
 ```
 
-#### 3. String to Long
-dapat mengkonversi dari nilai String ke nilai Long.
+#### 3. String to Integer
+dapat mengkonversi dari nilai String ke nilai Integer.
 ```java
-long nilai = string2long("24.5");
+String text = "2454";
+int nilai = string2int(text);
 ```
 
 
@@ -82,7 +83,7 @@ long nilai = string2long("24.5");
 #### Menulis String kedalam EEPROM
 cara menuliskan data String kedalam EEPROM
 ```java
-writeStringToEEPROM(0, "i'm fine, thanks ouyeah");
+writeStringToEEPROM(0, "i'm fine, thanks");
 
 // 0 = adalah address awal penulisan string, pada address 0 nya berisi panjang karakter string dan stringnya dimulai disetelah 0 yaitu 1. variabel ini dapat dirubah tidak hanya dimulai dari 0.
 // isi = berupa data string yang akan disimpan di EEPROM
