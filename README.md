@@ -53,7 +53,7 @@ float sensor = sensorRange(A0,0,1023,0,10);
 ```
 
 
-
+--
 
 
 ### KONVERSI NILAI
