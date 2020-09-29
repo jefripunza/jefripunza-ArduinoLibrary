@@ -1,6 +1,7 @@
 ![banner](banner.png)
 
 ---
+![Custom badge](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber)
 
 Library Arduino untuk mempermudah dalam membangun sebuah projek IoT (Internet Of Things).
 
