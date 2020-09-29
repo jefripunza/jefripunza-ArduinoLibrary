@@ -53,7 +53,6 @@ float sensor = sensorRange(A0,0,1023,0,10);
 ```
 
 
----
 
 
 ### KONVERSI NILAI
@@ -95,6 +94,50 @@ writeStringToEEPROM(0, "i'm fine, thanks ouyeah");
 // isi = berupa data string yang akan disimpan di EEPROM
 ```
 
+#### Membaca String didalam EEPROM
+
+cara menuliskan data String didalam EEPROM
+```java
+String ambilString = readStringFromEEPROM(0);
+
+// 0 = adalah address awal penulisan string yang harus sama dengan address awal penulisan
+```
+
+#### Menghapus data didalam EEPROM
+
+cara menghapus data didalam EEPROM
+```java
+eraseValueEEPROM(0);
+
+// 0 = adalah address awal penghapusan sampai akhir panjang EEPROM (setiap microcontroller berbeda ukuran EEPROM nya)
+```
+
+
+
+
+
+
+
+
+### Bermain Musik
+
+#### buzzer
+
+dapat membunyikan nada note untuk bermain lagu.
+
+```java
+bunyikan(buzzerPin,NOTE_C5, 100, 50);
+
+// buzzerPin = adalah nilai pin untuk buzzer
+// NOTE_C5 = adalah nada C5 yang akan dibunyikan (oktav yang tersedia dari C4 sampai B5)
+// 100 = adalah panjang suara nada
+// 50 = adalah jeda setelah suara nada berbunyi
+```
+
+
+
+
+
 
 
 ### FUNGSI TAMBAHAN
@@ -110,9 +153,12 @@ blinkLed(200,13); //blinkLed(delay,pinLampu);
 
 
 
+---
+
+
 ## Support the project
 
-Do you like this library? Please [star this project on GitHub](https://github.com/bblanchon/ArduinoJson/stargazers)!
+Apakah kamu menyukai library ini? Please support saya dengan menekan subscribe [Youtube Channel] saya(https://github.com/bblanchon/ArduinoJson/stargazers)!
 
 What? You don't like it but you *love* it?  
 We don't take donations anymore, but [we sell a book](https://arduinojson.org/book/?utm_source=github&utm_medium=readme), so you can help and learn at the same time.
