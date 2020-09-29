@@ -6,7 +6,9 @@ Library Arduino untuk mempermudah dalam membangun sebuah projek IoT (Internet Of
 
 ## Features
 
-### Generate Text
+### AMBIL & UBAH DATA
+
+#### Generate Text
 
 dapat membuat text random dengan panjang text yang diinginkan.
 
@@ -14,21 +16,41 @@ dapat membuat text random dengan panjang text yang diinginkan.
 String generate = generateText(10);
 
 // Hasil print
-// sfhhseiwfo
+// sfhhseiwfo (contoh)
 ```
 
-### Split Text
+#### Split Text
 
 dapat mengambil data dari sebuah string dengan menggunakan variabel separator dan dapat memilih data pada urutannya.
 
-```c++
+```java
 String data2 = splitText("#0#1#2#3#",'#',2);
 
 // Hasil print:
 // 1
 ```
 
+#### Replace Text
 
+dapat merubah isi string yang akan kita rubah dengan string baru.
+
+```java
+String text = replaceText("Aku Belanda!", "Belanda", "Indonesia");
+
+// Hasil print:
+// Aku Indonesia!
+```
+
+#### Sensor Range
+
+dapat meminimalisir kode untuk pengambilan data dari sensor sehingga lebih minimalis dalam pengetikan.
+
+```java
+float sensor = sensorRange(A0,0,1023,0,10);
+
+// Hasil print:
+// 9 (contoh)
+```
 
 
 
