@@ -109,9 +109,6 @@ eraseValueEEPROM(0);
 
 
 
-
-
-
 ### Bermain Musik
 
 #### buzzer
@@ -123,21 +120,6 @@ bunyikan(buzzerPin,NOTE_C5, 100, 50);
 // NOTE_C5 = adalah nada C5 yang akan dibunyikan (nada note yang tersedia dari C4 sampai B5)
 // 100 = adalah panjang suara nada
 // 50 = adalah jeda setelah suara nada berbunyi
-```
-
-
-
-
-
-
-
-### FUNGSI TAMBAHAN
-
-#### blinkLED
-dapat mempersingkat kode dalam membuat blink/kedip lampu.
-
-```java
-blinkLed(200,13); //blinkLed(delay,pinLampu);
 ```
 
 
