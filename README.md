@@ -78,7 +78,7 @@ long nilai = string2long("24.5");
 ### Manajemen EEPROM
 
 #### Menulis String kedalam EEPROM
-dapat menuliskan data String kedalam EEPROM
+cara menuliskan data String kedalam EEPROM
 ```java
 writeStringToEEPROM(0, "i'm fine, thanks ouyeah");
 
@@ -117,7 +117,7 @@ dapat membunyikan nada note untuk bermain lagu.
 bunyikan(buzzerPin,NOTE_C5, 100, 50);
 
 // buzzerPin = adalah nilai pin untuk buzzer
-// NOTE_C5 = adalah nada C5 yang akan dibunyikan (oktav yang tersedia dari C4 sampai B5)
+// NOTE_C5 = adalah nada C5 yang akan dibunyikan (nada note yang tersedia dari C4 sampai B5)
 // 100 = adalah panjang suara nada
 // 50 = adalah jeda setelah suara nada berbunyi
 ```
