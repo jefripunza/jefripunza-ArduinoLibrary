@@ -124,7 +124,7 @@ bunyikan(buzzerPin,NOTE_C5, 100, 50);
 //atau menggunakan speed dari library (ketentuan)
 bunyikan(buzzerPin, NOTE_C5, SPEED_2_BEAT , SPEED_1_BEAT);
 
-// SPEED tersedia dari SPEED_0_BEAT hingga SPEED_12_BEAT
+// SPEED tersedia dari SPEED_0_BEAT hingga SPEED_16_BEAT
 
 // note tuts yang tersedia dari B0 sampai DS8 (B0 -> D#8)
 // C5  = adalah note C5  (tuts warna putih note C  oktaf 5)
