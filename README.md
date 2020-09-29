@@ -59,13 +59,15 @@ float sensor = sensorRange(A0,0,1023,0,10); //sensorRange(pinSensor,nilai_sensor
 #### 1. String to Char
 dapat mengkonversi dari nilai String ke nilai Char.
 ```java
-char *text = string2char("akhsiap");
+String awal = "akhsiap";
+char *text = string2char(awal);
 ```
 
 #### 2. Char to Int
 dapat mengkonversi dari nilai Char ke nilai Integer.
 ```java
-int nilai = char2int('24.5');
+char *text = '24.5'
+int nilai = char2int(text);
 ```
 
 #### 3. String to Long
