@@ -10,7 +10,7 @@ Library Arduino untuk mempermudah dalam membangun sebuah projek IoT (Internet Of
 
 dapat membuat text random dengan panjang text yang diinginkan.
 
-```c++
+```java
 String generate = generateText(10);
 
 // Hasil print
