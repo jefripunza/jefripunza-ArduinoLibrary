@@ -1,4 +1,4 @@
-![ArduinoJson](banner.svg)
+![ArduinoJson](banner.png)
 
 ---
 
