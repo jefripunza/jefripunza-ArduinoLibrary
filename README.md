@@ -18,7 +18,9 @@
 [![Custom badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefri-herdi-triyanto-ba76a8106/)
 
 # Introduction
-[![Custom badge](https://img.shields.io/badge/c%20-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white)](https://kelasrobot.com/belajar-pemrograman-dasar-arduino/) <br />
+[![Custom badge](https://img.shields.io/badge/c%20-%2300599C.svg?&style=for-the-badge&logo=c&logoColor=white)](https://kelasrobot.com/belajar-pemrograman-dasar-arduino/)
+[![arduino-library-badge](https://www.ardu-badge.com/badge/jefripunza.svg?)](https://www.ardu-badge.com/jefripunza)
+<br />
 Library Arduino untuk mempermudah dalam membangun sebuah projek IoT (Internet Of Things).
 
 ---
