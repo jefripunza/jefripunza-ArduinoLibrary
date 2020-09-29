@@ -14,17 +14,17 @@
 [![Custom badge](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jefripunza/)
 [![Custom badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefri-herdi-triyanto-ba76a8106/)
 
-## Introduction
+# Introduction
 
 Library Arduino untuk mempermudah dalam membangun sebuah projek IoT (Internet Of Things).
 
 ---
 
-## Features
+# Features
 
-### BUAT, AMBIL & UBAH DATA
+## BUAT, AMBIL & UBAH DATA
 
-#### 1. Generate Text
+### 1. Generate Text
 dapat membuat text random dengan panjang text yang diinginkan.
 ```java
 String generate = generateText(10); //generateText(panjangText)
@@ -33,7 +33,7 @@ String generate = generateText(10); //generateText(panjangText)
 // sfhhseiwfo (contoh)
 ```
 
-#### 2. Split Text
+### 2. Split Text
 dapat mengambil data dari sebuah string dengan menggunakan variabel separator dan dapat memilih data pada urutannya.
 ```java
 //SEPARATOR = #
@@ -48,7 +48,7 @@ String data2 = splitText(text,'#',2); //2 adalah urutan data yang ditunjuk
 // 1
 ```
 
-#### 3. Replace Text
+### 3. Replace Text
 dapat merubah isi string yang akan kita rubah dengan string baru.
 ```java
 String awal = "Aku Belanda!";
@@ -58,7 +58,7 @@ String hasil = replaceText(awal, "Belanda", "Indonesia"); //replaceText(awal, tu
 // Aku Indonesia!
 ```
 
-#### 4. Sensor Range
+### 4. Sensor Range
 dapat meminimalisir kode untuk pengambilan data dari sensor sehingga lebih minimalis dalam pengetikan.
 ```java
 float sensor = sensorRange(A0,0,1023,0,10); //sensorRange(pinSensor,nilai_sensor_kecil,nilai_sensor_besar,nilai_tujuan_kecil,nilai_tujuan_besar)
@@ -70,34 +70,30 @@ float sensor = sensorRange(A0,0,1023,0,10); //sensorRange(pinSensor,nilai_sensor
 
 
 
-### KONVERSI NILAI
+## KONVERSI NILAI
 
-#### 1. String to Char
-dapat mengkonversi dari nilai String ke nilai Char.
+### 1. String to Char
 ```java
 String awal = "akhsiap";
 char *text = string2char(awal);
 ```
 
-#### 2. Char to Int
-dapat mengkonversi dari nilai Char ke nilai Integer.
+### 2. Char to Int
 ```java
 char *text = "24.5";
 int nilai = char2int(text);
 ```
 
-#### 3. String to Integer
-dapat mengkonversi dari nilai String ke nilai Integer.
+### 3. String to Integer
 ```java
 String text = "2454";
 int nilai = string2int(text);
 ```
 
 
-### Manajemen EEPROM
+## Manajemen EEPROM
 
-#### Menulis String kedalam EEPROM
-cara menuliskan data String kedalam EEPROM
+### Menulis String kedalam EEPROM
 ```java
 writeStringToEEPROM(0, "i'm fine, thanks");
 
@@ -105,16 +101,14 @@ writeStringToEEPROM(0, "i'm fine, thanks");
 // isi = berupa data string yang akan disimpan di EEPROM
 ```
 
-#### Membaca String didalam EEPROM
-cara menuliskan data String didalam EEPROM
+### Membaca String didalam EEPROM
 ```java
 String ambilString = readStringFromEEPROM(0);
 
 // 0 = adalah address awal penulisan string yang harus sama dengan address awal penulisan
 ```
 
-#### Menghapus data didalam EEPROM
-cara menghapus data didalam EEPROM
+### Menghapus data didalam EEPROM
 ```java
 eraseValueEEPROM(0);
 
@@ -125,10 +119,8 @@ eraseValueEEPROM(0);
 
 
 
-### Bermain Musik
-
-#### buzzer
-dapat membunyikan nada note untuk bermain lagu.
+## Bermain Musik
+dapat membunyikan nada note untuk bermain lagu dengan menggunakan buzzer.
 ```java
 bunyikan(buzzerPin,NOTE_C5, 100, 50);
 
