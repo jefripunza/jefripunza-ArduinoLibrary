@@ -117,10 +117,16 @@ dapat membunyikan nada note untuk bermain lagu.
 bunyikan(buzzerPin,NOTE_C5, 100, 50);
 
 // buzzerPin = adalah nilai pin untuk buzzer
-// NOTE_C5 = adalah nada C5 yang akan dibunyikan (nada note yang tersedia dari B0 sampai DS8)
+// NOTE_C5 = adalah nada C5 yang akan dibunyikan
 // 100 = adalah panjang suara nada
 // 50 = adalah jeda setelah suara nada berbunyi
 
+//atau menggunakan speed dari library (ketentuan)
+bunyikan(buzzerPin, NOTE_C5, SPEED_2_BEAT , SPEED_1_BEAT);
+
+// SPEED tersedia dari SPEED_0_BEAT hingga SPEED_12_BEAT
+
+// note tuts yang tersedia dari B0 sampai DS8 (B0 -> D#8)
 // C5  = adalah note C5  (tuts warna putih note C  oktaf 5)
 // CS7 = adalah note C#5 (tuts warna hitam note C# oktaf 7)
 ```
