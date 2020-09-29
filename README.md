@@ -150,5 +150,5 @@ bunyikan(buzzerPin, NOTE_C5, SPEED_2_BEAT , SPEED_1_BEAT);
 Apakah kamu menyukai library ini? Please support saya dengan menekan subscribe di [Youtube Channel](https://www.youtube.com/user/jefripunza/) saya...
 
 # Donation
-Butuh ngopi gans, kasih lah untuk biaya pengembangan agar mudah membeli alat dan buat makan
 [![Donate](https://img.shields.io/badge/paypal-%2300457C.svg?&style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/jefripunza)
+Butuh ngopi gans, kasih lah untuk biaya pengembangan agar mudah membeli alat dan buat makan
