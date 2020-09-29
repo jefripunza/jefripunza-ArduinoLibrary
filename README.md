@@ -158,7 +158,7 @@ blinkLed(200,13); //blinkLed(delay,pinLampu);
 
 ## Support the project
 
-Apakah kamu menyukai library ini? Please support saya dengan menekan subscribe [Youtube Channel] saya(https://github.com/bblanchon/ArduinoJson/stargazers)!
+Apakah kamu menyukai library ini? Please support saya dengan menekan subscribe di [Youtube Channel](https://github.com/bblanchon/ArduinoJson/stargazers) saya...
 
 What? You don't like it but you *love* it?  
 We don't take donations anymore, but [we sell a book](https://arduinojson.org/book/?utm_source=github&utm_medium=readme), so you can help and learn at the same time.
