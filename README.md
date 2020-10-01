@@ -42,11 +42,11 @@ String generate = generateText(10); //generateText(panjangText)
 dapat mengambil data dari sebuah string dengan menggunakan variabel separator dan dapat memilih data pada urutannya.
 ```java
 //SEPARATOR = #
-//semua data harus berada didalam separator
+//semua data didepannya harus ada separatornya
 // salah = 1#2#3#
-// salah = #1#2#3
+// salah = #1#2#3#
 
-String text = "#0#1#2#3#"; //benar
+String text = "#0#1#2#3"; //benar
 String data2 = splitText(text,'#',2); //2 adalah urutan data yang ditunjuk
 
 // Hasil print:
