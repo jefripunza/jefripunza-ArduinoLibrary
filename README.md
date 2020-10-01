@@ -73,6 +73,8 @@ float sensor = sensorRange(A0,0,1023,0,10); //sensorRange(pinSensor,nilai_sensor
 ```
 
 
+<br />
+
 
 
 ## KONVERSI NILAI
@@ -94,6 +96,9 @@ int nilai = char2int(text);
 String text = "2454";
 int nilai = string2int(text);
 ```
+
+
+<br />
 
 
 ## Manajemen EEPROM
@@ -122,6 +127,9 @@ eraseValueEEPROM(0);
 
 
 
+<br />
+
+
 
 
 ## Bermain Musik
@@ -146,12 +154,15 @@ bunyikan(buzzerPin, NOTE_C5, SPEED_2_BEAT , SPEED_1_BEAT);
 
 
 
+<br />
 
 
 
 
 # Support the project
 Apakah kamu menyukai library ini? Please support saya dengan menekan subscribe di [Youtube Channel](https://www.youtube.com/user/jefripunza/) saya...
+
+<br />
 
 # Donation Please
 Butuh ngopi gans, kasih lah untuk biaya pengembangan agar mudah membeli alat dan buat makan <br />
