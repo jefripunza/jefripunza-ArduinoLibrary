@@ -7,7 +7,7 @@
 
 void setup() {
   Serial.begin(9600);
-  String text = "#0#1#2#3#";
+  String text = "#0#1#2#3";
   String data2 = splitText(text, '#', 2);
   Serial.println(data2);
 }
